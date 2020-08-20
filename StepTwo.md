@@ -29,6 +29,8 @@ Now you can fiddle around with your controller all you want and it won't affect 
 
 Decide as a team how you want to merge changes. You could merge each controller method to the master as it is completed, or wait until they're all done and merge one by one at that point. Once the merge is done, everyone should `git pull` so that each person has the current master on their machine. Now do `git checkout master` to switch back to the master and test everything together!
 
+>Make sure to check out your teammates' code. If you see something you think should change, speak up! If there's something you don't understand, ask!
+
 >Each team member will probably have different junk in their local database at this point. This may not necessarily be a problem, but you can return your database to its freshly seeded state at any time by running `rails db:reset`.
 
 Now it's time to talk about [how your `User` model will interact with artists and records](StepThree.md).
