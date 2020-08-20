@@ -49,4 +49,4 @@ Your should now be able to select the new branch on GitHub and submit a pull req
 
 Now everyone can type `git pull` in their project repos, and you should all have the updated code. Each person will still need to update their local database, though! Run `rails db:create` if you haven't previously, then run `rails db:reset`. Everyone should now have the database and seed set up locally.
 
-It's time to [set up a few routes and controllers]('StepTwo.md').
+It's time to [set up a few routes and controllers](StepTwo.md).
