@@ -2,7 +2,11 @@
 
 Now that we've built relationships between a `User` and the records and artists in their collection, we can build routes and controllers to serve that info. Instead of adding a `PurchasesController` -- we're just using `Purchases` to connect other models, remember? -- we'll add to our `UsersController` and take advantage of the user login capabilities we built earlier.
 
-## User-specific info
+>![Phil Collins](https://media.giphy.com/media/nqAhSVOPeARZ6/giphy.gif)
+
+>Auth: Members Only
+
+## Getting user-specific info
 
 We'll need these five routes in our front end:
 
@@ -66,6 +70,6 @@ Follow the same pattern from Step Two. Once all the controllers are completed an
 
 ## Deployment
 
-It's a good idea to make update the README file inside your Rails project directory with a sentence or two of introduction. You can also include the chart of your routes you can find in [resource_chart.md](resource_chart.md).
+It's a good idea to update the README file inside your Rails project directory with a sentence or two of introduction. You can also include the chart of your routes, which you can find in [resource_chart.md](resource_chart.md).
 
 Now one team member should take the lead in deploying the API to Heroku. Follow the instructions from Thursday morning's lesson... and once it's set, you'll be ready to move on to connecting the front end.

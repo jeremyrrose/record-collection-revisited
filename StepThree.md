@@ -2,6 +2,10 @@
 
 Your uncle's *copy* of Cyndi Lauper's *She's So Unusual* belongs to him, sure. But that masterpiece *belongs to the world.* Well, or... in our database model anyway, it `belongs_to` the `Artist`. So how can we let your uncle add it to his collection?
 
+>![Oh, Cyndi!](https://media.giphy.com/media/kFFWGnCJWE1hu/giphy.gif)
+
+>True colors, shining `through:`
+
 ## Many to many, through
 
 We want to enable each of our app's users to `have_many` records, and we want to enable each record to `have_many` satisfied listeners. This is called a "many-to-many" relationship. Very progressive!

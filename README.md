@@ -6,7 +6,7 @@ Your uncle was so pleased with the record collection app you built that he has s
 
 But it would be a violation of your DRY ethos to re-deploy an individual app to Heroku for each of them so that each could have their own database. You need user logins. You'll have to rebuild the whole thing.
 
-Fortunately, you just learned Rails -- and Alex says you can build a whole Rails server in 15 minutes, right? You've also got a bunch of talented classmates, and you've decided to make this one a group effort.
+Fortunately, you just learned Rails -- and Alex says you can build a whole Rails server in 15 minutes, right? You've also got a bunch of talented classmates, and you've decided to make this project a group effort.
 
 You'll test it out using the same eight classic LPs, since you already typed out all the info:
 
@@ -19,6 +19,6 @@ You'll test it out using the same eight classic LPs, since you already typed out
 ![Whitney Houston - Whitney](https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Whitney_Houston_-_Whitney_%28album%29.jpg/220px-Whitney_Houston_-_Whitney_%28album%29.jpg)
 ![Cyndi Lauper - She's So Unusual](https://upload.wikimedia.org/wikipedia/en/thumb/0/09/ShesSoUnusual1984.PNG/220px-ShesSoUnusual1984.PNG)
 
-You're kinda weirded out by the fact that you now think Hall & Oates' "I Can't Go For That" totally *SLAPS*, but whatever. This isn't about your uncle anymore, or about Hall & Oates -- this is about software engineering.
+You're kinda weirded out by the fact that you now think Hall & Oates' "I Can't Go For That" totally *SLAPS*, but whatever. This isn't about your uncle anymore, or even about Hall & Oates -- this is about **software engineering**.
 
 Gather your group and [let's get started](StepOne.md).

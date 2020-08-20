@@ -1,6 +1,10 @@
 # Record Collection Revisited - Step One
 
-From here on out, all instructions pertain to the whole group -- so the first step is to get on the same Git page.
+From here on out, all instructions pertain to the whole group -- since we're new kids on the Git block, the first step is to get on the same Git page.
+
+>![NKOTB](https://media.giphy.com/media/1j9LcUEi8zyY56iqm3/giphy.gif)
+
+>Choreography.
 
 ## Group Git
 
@@ -10,15 +14,17 @@ Well, *one* person can... you'll have to add all the group members to the repo o
 
 ## Basic auth
 
-We know we'll want users to be able to login; you can actually go ahead and set up auth *exactly* like we did in class on Wednesday (though you might want to change the`User` model's `age` field to `email` or something more relevant). That means go through all the steps like enabling the `bcrypt`, `rack-cors`, and `jwt` gems, adding the CORS configuration, putting `has_secure_password` in the `User` model, adding the whole auth chain into `ApplicationController`, and setting up the same user routes and controllers to receive login info and spit out JWTs in return.
+We know we'll want users to be able to login; you can actually go ahead and set up auth *exactly* like we did in class on Wednesday (though you might want to change the`User` model's `age` field to `email` or something more relevant). 
 
-Test to make sure the auth system works, then commit the changes and set this aside until later. We've got a lot of other things to set up.
+That means go through *all* the steps like enabling the `bcrypt`, `rack-cors`, `jwt`, and `dotenv-rails` gems, adding the CORS configuration, putting `has_secure_password` in the `User` model, adding the whole auth chain into `ApplicationController`, and setting up the same user routes and controllers to receive login info and spit out JWTs in return.
+
+Test in Postman to make sure the auth system works, then commit the changes and set this aside until later. We've got a lot of other things to set up.
 
 >You may choose to walk through the auth setup as a group *or* designate one person to make the changes while others peek ahead and plan. Either way, you should do it on one computer, then commit and push changes.
 
 ## Artist and Record models
 
-Everyone should pull down the auth changes. Now we'll practice Git branching to set up the `Artist` and `Record` models. One person should type `git checkout -b artist-and-record-models` in their terminal... Now they're on a new Git branch! You'll make the next set of changes here.
+Everyone should pull down the auth changes. Now we'll practice Git branching to set up the `Artist` and `Record` models. One person should type `git checkout -b artist-and-record-models` in their terminal... Now that person is on a new Git branch! You'll make the next set of changes here.
 
 Our models will have the same shape they had in the Mongoose schemas from before:
 
